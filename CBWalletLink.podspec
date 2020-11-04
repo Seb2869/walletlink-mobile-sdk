@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/CoinbaseWallet/walletlink-mobile'
   s.license          = { :type => "AGPL-3.0-only", :file => 'LICENSE' }
   s.author           = { 'Coinbase' => 'developer@toshi.org' }
-  s.source           = { :git => 'https://github.com/CoinbaseWallet/walletlink-mobile.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ourzora/walletlink-mobile-sdk.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/coinbase'
 
   s.ios.deployment_target = '10.0'
