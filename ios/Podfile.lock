@@ -34,7 +34,7 @@ DEPENDENCIES:
   - "CBCrypto (from `git@github.com:CoinbaseWallet/CBCrypto.git`, commit `9b0990148600a7eb9b996b7f060b76761f6792ce`)"
   - "CBDatabase (from `git@github.com:CoinbaseWallet/CBDatabase.git`, commit `7ee0ac6c73f4a270c0f0fee023953e63ab87ea5a`)"
   - "CBHTTP (from `git@github.com:CoinbaseWallet/CBHTTP.git`, commit `a616dfe10ee470fe1c0fb19fa605a142f634612a`)"
-  - "CBStore (from `git@github.com:CoinbaseWallet/Stores.git`, commit `444c4d462a91068729f245852fd111be5261f78c`)"
+  - "CBStore (from `git@github.com:CoinbaseWallet/CBStore.git`, commit `444c4d462a91068729f245852fd111be5261f78c`)"
   - RxCocoa (~> 4.4.0)
   - RxSwift (~> 4.4.0)
   - Starscream (~> 3.1)
@@ -42,8 +42,9 @@ DEPENDENCIES:
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - BigInt
+    - CryptoSwift
     - RxAtomic
     - RxCocoa
     - RxSwift
@@ -51,8 +52,6 @@ SPEC REPOS:
     - Starscream
     - SwiftFormat
     - SwiftLint
-  trunk:
-    - CryptoSwift
 
 EXTERNAL SOURCES:
   CBCore:
@@ -69,7 +68,7 @@ EXTERNAL SOURCES:
     :git: "git@github.com:CoinbaseWallet/CBHTTP.git"
   CBStore:
     :commit: 444c4d462a91068729f245852fd111be5261f78c
-    :git: "git@github.com:CoinbaseWallet/Stores.git"
+    :git: "git@github.com:CoinbaseWallet/CBStore.git"
 
 CHECKOUT OPTIONS:
   CBCore:
@@ -86,7 +85,7 @@ CHECKOUT OPTIONS:
     :git: "git@github.com:CoinbaseWallet/CBHTTP.git"
   CBStore:
     :commit: 444c4d462a91068729f245852fd111be5261f78c
-    :git: "git@github.com:CoinbaseWallet/Stores.git"
+    :git: "git@github.com:CoinbaseWallet/CBStore.git"
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
@@ -94,7 +93,7 @@ SPEC CHECKSUMS:
   CBCrypto: b7533edfdad7f3ca7f350ba376038f711a8b8cd6
   CBDatabase: 1e392c3bdb81427ccf8f4c20013792358c50016e
   CBHTTP: a079a9c9b3bfe9cfbdd50329a91d436ec8451687
-  CBStore: b1f28915a56e6c8563c4771693dd93ae9288e47d
+  CBStore: d94166e95c2c59c5a2144edc16fb026526cd652f
   CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
   RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
@@ -104,6 +103,6 @@ SPEC CHECKSUMS:
   SwiftFormat: abbfb26dde4c6d683923cde153c88e10da9d7881
   SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
 
-PODFILE CHECKSUM: 1fd3860d3f8daba2f459387ab63cce6065b718e8
+PODFILE CHECKSUM: 3f8394200b3af85df058b7cd44177276c4649c01
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
